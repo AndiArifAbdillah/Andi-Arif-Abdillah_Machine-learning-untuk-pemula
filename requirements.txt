@@ -1,0 +1,12 @@
+# Versi library yang dipakai untuk menjalankan kedua notebook (Python 3.12).
+# scikit-learn 1.7.0 disarankan Dicoding agar model .h5 kompatibel saat diperiksa reviewer.
+scikit-learn==1.7.0
+pandas==2.2.3
+numpy==1.26.4
+yellowbrick==1.5
+matplotlib==3.10.9
+seaborn==0.13.2
+joblib==1.5.3
+# yellowbrick 1.5 membutuhkan distutils, yang dihapus di Python 3.12; setuptools menyediakannya.
+setuptools==80.10.2
+ipykernel==7.2.0
